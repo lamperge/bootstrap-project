@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@font-face {font-family: "Helvetica"; src: url('./fonts/Nimbus-Sans-D-OT-Light_32752.ttf') format('truetype');}
+@font-face {font-family: "Helvetica B"; src: url('./fonts/Nimbus-Sans-D-OT-Bold_32747.ttf') format('truetype');}
+@font-face {font-family: "Helvetica R"; src: url('./fonts/Nimbus-Sans-D-OT-Regular-Condensed_32754.ttf') format('truetype');}
+
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.altura {
+    height: 560px;
+    background-position: right bottom;
+}
+
+.center {
+    margin-left: auto;
+}
+
+@media (max-width:460px) {
+    .center {
+        margin: auto;
+    }
+
+    .container {
+        margin-top: -250px;
+    }
+    
+}
+footer {
+    text-align: center;
+    padding: 10px;
+}
